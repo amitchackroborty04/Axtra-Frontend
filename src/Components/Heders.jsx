@@ -27,7 +27,7 @@ const Heders = () => {
           </div>
 
           <nav className="">
-            <List className={`absolute top-0  ${menu ? "left-0" : "left-[-100%]"} w-[70%] lg:w-auto gap-y-10 py-10  bg-gray-500 lg:bg-transparent lg:static flex flex-col lg:flex-row justify-between cursor-pointer duration-500 z-50 rleative `}>
+            <List className={`absolute top-0  ${menu ? "left-0" : "left-[-100%]"} w-[100%] lg:w-auto gap-y-10 py-10  bg-gray-500 lg:bg-transparent lg:static flex flex-col lg:flex-row justify-between cursor-pointer duration-500 z-50 rleative `}>
               <span className="absolute top-5 right-5 cursor-pointer">
               <RxCross2 onClick={()=>setMenu(false)} className="text-2xl text-red-500 block lg:hidden" />
               </span>
