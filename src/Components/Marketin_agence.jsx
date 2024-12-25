@@ -15,13 +15,13 @@ const Marketin_agence = () => {
             <Image src={image1} alt="image1" />
           </div>
           <div className="w-full lg:w-[50%] relative">
-            <div className=" hidden lg:block absolute top-[-145px] left-[154px] border border-[#988c8c] h-[100px]  "></div>
-            <div className=" hidden lg:block absolute bottom-[-138px] left-[154px] border border-[#988c8c] h-[560px]  "></div>
+            <div className=" hidden lg:block absolute top-[-105px] left-[154px] border border-[#988c8c] h-[100px]  "></div>
+            <div className=" hidden lg:block absolute bottom-[-105px] left-[154px] border border-[#988c8c] h-[600px]  "></div>
             <h5 className="text-[18px font-normal text-white text-center lg:text-left ">Who We Are</h5>
             <h4 className=" text-[30px] lg:text-[60px] font-bold text-white leading-[40px] lg:leading-[60px] mt-10 text-center lg:text-left">
               We are leading digital marketing agency.
             </h4>
-            <div className="w-full lg:w-[510px] flex ml-0 lg:ml-[160px] mt-[60px] lg:mt-[100px] text-center lg:text-left">
+            <div className="w-full lg:w-[510px] flex pl-0 lg:pl-[160px] mt-[60px] lg:mt-[100px] text-center lg:text-left">
               <Primary_text
                 text="We’re a team of strategic mdigital marketing
                 working globally with largest brands, We believe

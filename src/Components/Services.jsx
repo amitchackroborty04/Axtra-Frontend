@@ -29,7 +29,7 @@ const Services = () => {
             />
           </div>
         </div>
-        <Flex className="flex-col lg:flex-row mt-10 justify-between w-full lg:w-[1296px] mx-auto border-t pt-14 gap-y-10">
+        <Flex className="flex-col lg:flex-row mt-10 justify-between w-full lg:max-w-[1296px] mx-auto border-t pt-14 gap-y-10">
             <div className="flex justify-center lg:justify-start">
                 <Service_title content="Search Engine" sub_content="Optimization" />
             </div>
@@ -44,7 +44,7 @@ const Services = () => {
                 <Primary_Button text_color="text-[rgb(18,18,18)]" border_color="border-[#dfd9d9]"/>
             </div>
         </Flex>
-        <Flex className="flex-col lg:flex-row mt-10 justify-between w-full lg:w-[1296px] mx-auto border-t pt-14 gap-y-10">
+        <Flex className="flex-col lg:flex-row mt-10 justify-between w-full lg:max-w-[1296px] mx-auto border-t pt-14 gap-y-10">
             <div className="flex justify-center lg:justify-start">
                 <Service_title content="Search Engine" sub_content="Optimization" />
             </div>
@@ -59,7 +59,7 @@ const Services = () => {
                 <Primary_Button text_color="text-[rgb(18,18,18)]" border_color="border-[#dfd9d9]"/>
             </div>
         </Flex>
-        <Flex className="flex-col lg:flex-row mt-10 justify-between w-full lg:w-[1296px] mx-auto border-t pt-14 gap-y-10">
+        <Flex className="flex-col lg:flex-row mt-10 justify-between w-full lg:max-w-[1296px] mx-auto border-t pt-14 gap-y-10">
             <div className="flex justify-center lg:justify-start">
                 <Service_title content="Search Engine" sub_content="Optimization" />
             </div>

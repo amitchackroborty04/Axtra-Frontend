@@ -11,7 +11,7 @@ const Recent_blog = () => {
   return (
     <section >
         <Container>
-        <div className="w-full lg:w-[700px] mx-auto  py-[100px]">
+        <div className="w-full lg:max-w-[700px] mx-auto  py-[100px]">
           <h4 className="text-[18px] text-center font-normal leading-5 text-[rgb(85,85,85)] uppercase">
            Recent uplode
           </h4>
@@ -29,7 +29,7 @@ const Recent_blog = () => {
             />
           </div>
         </div>
-        <Flex className="w-full lg:w-[1360px] mx-auto mt-14  pb-[100px] flex-wrap lg:flex-nowrap">
+        <Flex className="w-full lg:max-w-[1360px] mx-auto mt-14  pb-[100px] flex-wrap lg:flex-nowrap">
             <div className='w-full lg:w-[50%]'>
                 <div className='relative'>
                 <Image src={image1} alt="image1"/>

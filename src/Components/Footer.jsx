@@ -38,19 +38,14 @@ const Footer = () => {
             </p>
           </div>
 
-          <div className="w-full  lg:w-[30%] ">\
+          <div className="w-full  lg:w-[40%] ">\
             <ul className="flex gap-x-10">
               <li className="text-sm lg:text-[24px] text-white  uppercase">about</li>
               <li className="text-sm lg:text-[24px] text-white  uppercase">contact</li>
               <li className="text-sm lg:text-[24px] text-white  uppercase">career</li>
               <li className="text-sm lg:text-[24px] text-white  uppercase">faq</li>
             </ul>
-            {/* <List className="flex gap-x-16 ">
-              <List_item item_name="about " className="text-white " />
-              <List_item item_name="contact" className="text-white " />
-              <List_item item_name="career " className="text-white " />
-              <List_item item_name="fAQ " className="text-white " />
-            </List> */}
+           
           </div>
         </Flex>
       </Container>
