@@ -31,20 +31,26 @@ const Footer = () => {
             </h3>
           </div>
         </Flex>
-        <Flex className="justify-between py-10 flex-col lg:flex-row gap-y-10 ">
+        <Flex className="justify-between items-center py-10 flex-col lg:flex-row gap-y-10 ">
           <div className="w-full lg:w-[20%]">
-            <p className="  text-white lg:text-[10px] lg:text-sm">
+            <p className="  text-white text-[10px] lg:text-base">
               © 2022 - 2025 | Alrights reserved by Wealcoder
             </p>
           </div>
 
-          <div className="w-full lg:w-[30%]">
-            <List className="flex gap-x-16 ">
-              <List_item item_name="about " className="text-white text-sm lg:base" />
-              <List_item item_name="contact" className="text-white text-sm lg:base" />
-              <List_item item_name="career " className="text-white text-sm lg:base" />
-              <List_item item_name="fAQ " className="text-white text-sm lg:base" />
-            </List>
+          <div className="w-full  lg:w-[30%] ">\
+            <ul className="flex gap-x-10">
+              <li className="text-sm lg:text-[24px] text-white  uppercase">about</li>
+              <li className="text-sm lg:text-[24px] text-white  uppercase">contact</li>
+              <li className="text-sm lg:text-[24px] text-white  uppercase">career</li>
+              <li className="text-sm lg:text-[24px] text-white  uppercase">faq</li>
+            </ul>
+            {/* <List className="flex gap-x-16 ">
+              <List_item item_name="about " className="text-white " />
+              <List_item item_name="contact" className="text-white " />
+              <List_item item_name="career " className="text-white " />
+              <List_item item_name="fAQ " className="text-white " />
+            </List> */}
           </div>
         </Flex>
       </Container>

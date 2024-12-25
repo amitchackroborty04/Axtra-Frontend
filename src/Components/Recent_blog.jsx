@@ -33,9 +33,9 @@ const Recent_blog = () => {
             <div className='w-full lg:w-[50%]'>
                 <div className='relative'>
                 <Image src={image1} alt="image1"/>
-                <div className='static lg:absolute bottom-0 right-16 w-[400px] bg-white  py-10 px-5'>
+                <div className='static lg:absolute bottom-0 right-16 w-full lg:w-[400px] bg-white  py-10 px-5'>
                     <p className='text-[15px] font-normal leading-4 text-[rgb(18,18,18)]'>UI Design . 02 May 2019</p>
-                    <h5 className='text-[26px] font-medium leading-7 text-[rgb(33,32,32)] w-[320px] border-b border-black pb-10 mt-10 shadow-sm '>How to bring fold to your startup company with Axtra</h5>
+                    <h5 className='text-[26px] font-medium leading-7 text-[rgb(33,32,32)] w-full lg:w-[320px] border-b border-black pb-10 mt-10 shadow-sm '>How to bring fold to your startup company with Axtra</h5>
                     <Flex className="items-center gap-x-3 mt-4">
                         <p className='text-base font-normal leading-4 text-[rgb(18,18,18)]'>Read More</p>
                         <span>
@@ -48,7 +48,7 @@ const Recent_blog = () => {
             <div className='w-full lg:w-[50%]'>
                 <div className='relative'>
                 <Image src={image2} alt="image2"/>
-                <div className=' static lg:absolute bottom-0 right-16 w-[400px] bg-white  py-10 px-5'>
+                <div className=' static lg:absolute bottom-0 right-16 w-full lg:w-[400px] bg-white  py-10 px-5'>
                     <p className='text-[15px] font-normal leading-4 text-[rgb(18,18,18)]'>UI Design . 02 May 2019</p>
                     <h5 className='text-[26px] font-medium leading-7 text-[rgb(33,32,32)] w-[320px] border-b border-black pb-10 mt-10 shadow-sm '>How to bring fold to your startup company with Axtra</h5>
                     <Flex className="items-center gap-x-3 mt-4">
